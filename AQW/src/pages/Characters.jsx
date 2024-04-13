@@ -27,6 +27,7 @@ function Characters() {
             <div className='characters-text'> 
                 <h1>Welcome to the Hero's Tavern!</h1>
                 <p>So this is where Heroes rest?!</p>
+                <p>Total number of heroes: {characters.length}</p> {/* Display total number of heroes */}
             </div>
             <div className='cards-grid'>
                 {characters.map((character) => (

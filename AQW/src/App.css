@@ -1,0 +1,224 @@
+#root {
+  max-width: 101%;
+  text-align: center;
+}
+
+
+.whole-page{
+  display: flex;
+  background-image: url('./images/yulgar.png');
+  background-size:100%; /* Ensure the background image covers the entire container */
+  background-position: center; /* Center the background image */
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  background-repeat: no-repeat;
+}
+
+.right-side-content{
+  flex: 1%;
+  margin-left: 23%;
+}
+
+/* Sidebar */
+.sidebar{
+  position: fixed;
+  width: 15%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(153, 153, 153, 0.05);
+  border-radius: 35px;
+  padding: 15px;
+}
+
+.sidebar-buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  margin-top: 35px;
+}
+
+
+.gif-container {
+  margin-top: 18rem; /* Push the gif to the bottom */
+}
+
+.gif {
+  position: fixed;
+  bottom: 25px;
+  left: 15px;
+  width: 75%; /* Ensure the gif fills its container */
+  z-index: 999;
+}
+
+/* Home */
+
+.home {
+  padding: 50px; /* Add padding as needed */
+  display: flex;
+  flex-direction: column
+}
+.home-text {
+  text-shadow: 5px 5px 5px rgb(0, 0, 0); /* Text shadow */
+  font-family: 'Garamond', sans-serif; /* Choose a suitable font family */
+  font-size: 22px;
+  backdrop-filter: blur(3px);
+  background-color: rgba(153, 153, 153, 0.02);
+  border-radius: 35px;
+  color: #fff; /* White text color */
+  width: 800px;
+  padding: 15px;
+  font-weight: bold; /* Increase font weight */
+}
+
+
+.logo {
+  backdrop-filter: blur(3px);
+  background-color: rgba(153, 153, 153, 0.012);
+  border-radius: 35px;
+  margin-right: 200px;
+  width: 300px; /* Adjust the width of the logo */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Add margin below the logo */
+  padding: 15px;
+}
+
+/* create */
+
+.create {
+  text-shadow: 5px 5px 5px rgb(0, 0, 0); /* Text shadow */
+  font-family: 'Garamond', sans-serif; /* Choose a suitable font family */
+  font-size: 22px;
+  backdrop-filter: blur(3px);
+  background-color: rgba(153, 153, 153, 0.05);
+  border-radius: 35px;
+  color: #fff; /* White text color */
+  width: 800px;
+  padding: 15px;
+  font-weight: bold; /* Increase font weight */
+  margin: auto; /* Center horizontally */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  position: fixed;
+  right: 150px;
+  top: 100px
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center horizontally */
+  gap: 20px; /* Adjust the gap size as needed */
+}
+
+.form-row {
+  display: flex;
+  gap: 80px; /* Adjust the gap size as needed */
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Adjust the gap size as needed */
+}
+
+input, select {
+  width: 200px; /* Adjust the width as needed */
+  padding: 5px;
+}
+
+/* characters */
+
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+.characters-text{
+  text-shadow: 5px 5px 5px rgb(0, 0, 0); /* Text shadow */
+  font-family: 'Garamond', sans-serif; /* Choose a suitable font family */
+  font-size: 22px;
+  backdrop-filter: blur(3px);
+  background-color: rgba(153, 153, 153, 0.02);
+  border-radius: 35px;
+  color: #fff; /* White text color */
+  width: 800px;
+  padding: 15px;
+  font-weight: bold; /* Increase font weight */
+}
+
+
+.card {
+  width: 250px; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height as needed */
+  margin: 5px; /* Adjust the margin to add gaps between cards */
+  padding: 5px;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0); /* Text shadow */
+  font-family: 'Garamond', sans-serif; /* Choose a suitable font family */
+  font-size: 18px;
+  backdrop-filter: blur(3px);
+  background-color: rgba(153, 153, 153, 0.02);
+  border-radius: 35px;
+  color: #fff; /* White text color */
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for depth */
+}
+.characters-container {
+  padding: 20px;
+  max-height: 80vh; /* Set maximum height to 80% of the viewport height */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.characters-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid with minimum width of 250px */
+  gap: 20px; /* Spacing between cards */
+}
+
+.cards-grid > * {
+  flex-grow: 1;
+}
+
+/* edit */
+
+.edit{
+  text-shadow: 5px 5px 5px rgb(0, 0, 0); /* Text shadow */
+  font-family: 'Garamond', sans-serif; /* Choose a suitable font family */
+  font-size: 22px;
+  backdrop-filter: blur(3px);
+  background-color: rgba(153, 153, 153, 0.05);
+  border-radius: 35px;
+  color: #fff; /* White text color */
+  width: 800px;
+  padding: 15px;
+  font-weight: bold; /* Increase font weight */
+  margin: auto; /* Center horizontally */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  position: fixed;
+  right: 150px;
+  top: 100px
+}
+.editButton {
+  /* Add your button styles here */
+  margin-top: 15px;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0); /* Text shadow */
+  font-size: 20px; 
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  
+}
+.editButton:hover {
+  border-color: #646cff;
+}

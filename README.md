@@ -33,16 +33,16 @@ Here's a walkthrough of implemented user stories:
 
  - **A create form allows users to add new crewmates**
  - **Users can name the crewmate and set the crewmate's attributes by clicking on one of several values**
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/o2AJbX5.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 - **The site displays a summary page of all the user's added crewmates**
 - **The site displays summary statistics about a user's crew on their crew page** 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/BInJJKX.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 - **A previously created crewmate can be updated from the crewmate list**
 - **A previously created crewmate can be deleted from the crewmate list**
 - **Each crewmate has a direct, unique link to an info page about them**
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/WAW37V9.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 <!-- Replace this with whatever GIF tool you used! -->

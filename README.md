@@ -29,8 +29,6 @@ GIF created with Kap!
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
 The CSS took very long, but the supabase interactions were pretty easy to follow.
 
 ## License
